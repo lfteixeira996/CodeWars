@@ -1,0 +1,4 @@
+| # | Exercise  | Code  | Tests | CodeWars - Link | State |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|1|[Regex_Pass](https://github.com/lfteixeira996/CodeWars/tree/master/Python/5kyu/Regex_Pass/README.md) | [Code](https://github.com/lfteixeira996/CodeWars/tree/master/Python/5kyu/Regex_Pass/Regex_Pass.py)|[Tests](https://github.com/lfteixeira996/CodeWars/tree/master/Python/5kyu/Regex_Pass/tests.py)|[CodeWars](https://www.codewars.com/kata/52e1476c8147a7547a000811/train/python)|:white_check_mark:|
+|2|[Greed_Good](https://github.com/lfteixeira996/CodeWars/tree/master/Python/5kyu/Greed_Good/README.md) | [Code](https://github.com/lfteixeira996/CodeWars/tree/master/Python/5kyu/Greed_Good/Greed_Good.py)|[Tests](https://github.com/lfteixeira996/CodeWars/tree/master/Python/5kyu/Greed_Good/tests.py)|[CodeWars](https://www.codewars.com/kata/5270d0d18625160ada0000e4/train/python)|:white_check_mark:|
