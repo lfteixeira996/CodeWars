@@ -5,10 +5,11 @@
 #E-Mail : filipe.teixeira.996@gmail.com  
 ##############################################
 
-def hello(name):
+def hello(name=""):
     
-    if name == "";
-    	return "Hello, World!"
-
+    if name:
+        return "Hello, "+ name.capitalize()+"!"
+    
     else:
-    	return "Hello, "+ name.capitalize()
+    	return "Hello, World!"
+    
