@@ -12,23 +12,19 @@ def dominator(arr):
     #create empty dictionary
     dict = {}
     
-    for x in range(0, elem):
+    for x in range(elem):
         
-        if dict.get(arr[x]) == None:
-            dict[arr[x]] = 1
+        dict[arr[x]] = dict.get(arr[x], 0) + 1
         
-        else:
-            dict[arr[x]] += 1
 
-
-    maxi = max(dict.items(), key=operator.itemgetter(1))[0]
-
-    if maxi > elem:
-    	return dict.get(maxi)
-
-    else:
-    	return -1
-
-
-
-dominator([3,4,3,2,3,1,3,3])        
+    k_max = 0
+    v_max = 0
+    
+    for k,v in dict.items():
+        if v > v_max:
+            k_max = k
+            v_max = v
+            
+    if v_max > elem/2:
+        return k_max
+    
