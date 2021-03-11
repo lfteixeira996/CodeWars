@@ -59,7 +59,7 @@ textMD=$"##############################################
 github="https://github.com/lfteixeira996/CodeWars/tree/master/Python/"
 
 #Text to write in the README.md file (in case already exists)
-updateMD_1=$"| # | [$proj_diff]($github$proj_diff) | [CodeWars](https://www.codewars.com/dashboard) | $date |:white_check_mark:|"
+updateMD_1="| # | [$proj_diff]($github$proj_diff) | [CodeWars](https://www.codewars.com/dashboard) | $date |:white_check_mark:|"
 
 #Text to write in the README.md file (in case new one)
 newMD_1=$"| # | Difficulty - GitHub | CodeWars - Link | Date  | State |
@@ -67,10 +67,10 @@ newMD_1=$"| # | Difficulty - GitHub | CodeWars - Link | Date  | State |
 
 
 #Text to write in the README.md file (in case already exists)
-updateMD_2=$"|$proj_num|[$proj_name]($github$proj_diff/$proj_name/README.md) | [Code]($github$proj_diff/$proj_name/$proj_name.py)|[Tests]($github$proj_diff/$proj_name/tests.py)|[CodeWars]($weblink)|:x:|"
+updateMD_2="|$proj_num|[$proj_name]($github$proj_diff/$proj_name/README.md) | [Code]($github$proj_diff/$proj_name/$proj_name.py)|[Tests]($github$proj_diff/$proj_name/tests.py)|[CodeWars]($weblink)|:x:|"
 
 #Text to write in the README.md file (in case new one)
-newMD_2=$"| # | Exercise  | Code  | Tests | CodeWars - Link | State |
+newMD_2="| # | Exercise  | Code  | Tests | CodeWars - Link | State |
 |:-:|:-:|:-:|:-:|:-:|:-:|"
 
 
